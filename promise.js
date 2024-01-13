@@ -50,6 +50,7 @@ setTimeout(resolve,2000,'goodbye')
 
 );
 
+
 const promise4 =fetch('https://jsonplaceholder.typicode.com/users').then(res=>
 
   res.json());
